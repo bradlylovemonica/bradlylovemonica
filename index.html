@@ -31,9 +31,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51" >
 
-    <audio id="player" autoplay controls hidden>
-        <source src="isalang.mp3" type="audio/mp3">
-    </audio>
+    
 
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
@@ -368,13 +366,7 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 
-    <script type="text/javascript">
-        document.addEventListener('click', musicPlay);
-function musicPlay() {
-    document.getElementById('player').play();
-    document.removeEventListener('click', musicPlay);
-}
-        </script>
+
 </body>
 
 </html>
